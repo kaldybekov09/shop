@@ -1,0 +1,171 @@
+$white: #fff;
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/PT-Root-UI/pt-root-ui_light.woff);
+}
+.conteiner{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+   
+}
+.header__conteiner{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 10px 0 10px;
+    height: 40px;
+     
+}
+.header{
+    background: #2D2D2D;
+    
+    a{
+        color: $white;
+        font-family: myfont;
+        font-size: 16px;
+    }
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.picture{
+    display: grid;
+    padding: 5% 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    img{
+        display: inline-block;
+        max-width: 100%;
+    }
+    
+}
+.new_products__head{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40px;
+    
+    .headline{
+        font-size: 24px;
+        font-family: myfont;
+        font-weight: bold;
+        color: #333;
+    }
+    .title{
+        font-size: 16px;
+        font-family: myfont;
+        margin-top: 15px;
+        color: #333;
+    }
+}
+.splite{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 40px;
+    gap: 20px;
+    
+    img{
+        display: inline-block;
+        max-width: 100%;
+        
+    }
+    .title{
+        font-size: 16px;
+        font-family: myfont;
+        margin-top: 15px;
+        color: #333;
+    }
+    .price{
+        font-size: 16px;
+        font-family: myfont;
+        margin-top: 15px;
+        font-weight: bold;
+        color: #333;
+    }
+}
+.brands{
+    margin-top: 10%;
+    text-align: center;
+    .brands_head{
+        font-size: 24px;
+        font-family: myfont;
+        margin-top: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #333;
+    }
+}
+.picture_brand{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    img{
+        display: inline-block;
+        max-width: 100%;
+        
+    }
+}
+.location{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 10%;
+    img{
+        display: inline-block;
+        max-width: 100%;
+        
+    }
+    text-align: center;
+    margin-bottom: 50px;
+}
+.description{
+    font-size: 20px;
+        font-family: myfont;
+        color: #333;
+        
+        
+    .description_head{
+        font-size: 24px;
+        font-family: myfont;
+        font-weight: bold;
+        margin-top: 40px;
+        color: #333;
+    }
+    .description_country{
+        margin-top: 100px;
+        color: #333;
+    }
+    .description_city{
+        margin-top: 40px;
+        color: #333;
+    }
+    .phone{
+        margin-top: 40px;
+        color: #333;
+    }
+    .phone_number{
+        margin-top: 15px;
+        color: #333;
+    }
+    .schedule{
+        margin-top: 40px;
+        color: #333;
+    }
+}
+footer{
+    background: #2D2D2D;
+    height: 160px;
+    .foot_logo{
+        text-align: center;
+        padding-top: 50px;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family: myfont;
+        font-weight: bold;
+        color: #fff;
+    }
+}
